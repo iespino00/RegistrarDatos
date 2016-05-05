@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iespino.registrardatos.ConfirmarDatos"
+    android:orientation="vertical"
+    android:background="@color/colorBackgound"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/dimen_margin_top"
+        android:layout_marginLeft="@dimen/dimen_margin_left">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+         >
+             <ImageView
+                 android:id="@+id/imgnombre"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/user_48"
+
+             />
+             <TextView
+                 android:id="@+id/txtnombre2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/txtnombre"
+                 android:layout_gravity="center_vertical"
+                 android:textSize="@dimen/dimen_txt"
+             />
+         </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_parametros"
+            android:layout_gravity="left"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimenlinearActv_top"
+            >
+            <ImageView
+                android:id="@+id/imgFnacimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/birthday_48"
+
+                />
+            <TextView
+                android:id="@+id/txtFnacimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtFnacimiento"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/dimen_txt"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvfnacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fnacimiento"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_parametros"
+            android:layout_gravity="left"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimenlinearActv_top"
+            >
+            <ImageView
+                android:id="@+id/imgtelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/movil"
+
+                />
+            <TextView
+                android:id="@+id/txtnombre2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txttelefono"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/dimen_txt"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvtelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_parametros"
+            android:layout_gravity="left"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimenlinearActv_top"
+            >
+            <ImageView
+                android:id="@+id/imgemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/email_48"
+
+                />
+            <TextView
+                android:id="@+id/txtemail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtemail"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/dimen_txt"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_parametros"
+            android:layout_gravity="left"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimenlinearActv_top"
+            >
+            <ImageView
+                android:id="@+id/imgdescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user_folder_48"
+
+                />
+            <TextView
+                android:id="@+id/txtdescripcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtdescripcion"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/dimen_txt"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvdescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_parametros"
+            android:layout_gravity="left"
+            />
+
+    </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal">
+          <Button
+              android:id="@+id/btneditar"
+              android:layout_marginTop="@dimen/dimenlinearActv_top"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="@string/txtBeditar"
+              android:textStyle="bold"
+              android:theme="@style/BotonSiguiente"
+              />
+
+      </LinearLayout>
+
+
+
+
+
+</LinearLayout>

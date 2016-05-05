@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Usuarios</string>
+    <string name="txtnombre">Nombre completo</string>
+    <string name="txttelefono">Teléfono</string>
+    <string name="txtemail">Email</string>
+    <string name="txtdescripcion">Descripción Contacto</string>
+    <string name="txtFnacimiento">Fecha de nacimiento</string>
+    <string name="txtBsiguiente">Siguiente</string>
+    <string name="txtBeditar">Editar datos</string>
+
+    <string name="nombre">Ignacio</string>
+    <string name="fnacimiento">21/06/1989</string>
+    <string name="telefono">7531144253</string>
+    <string name="email">iespino69@gmail.com</string>
+    <string name="descripcion">Ing Sistemas Computacionales</string>
+
+    <string name="parametroNombre">nombre</string>
+    <string name="parametroFecha">fnacimiento</string>
+    <string name="parametroTelefono">telefono</string>
+    <string name="parametroEmail">email</string>
+    <string name="parametroDescripcion">descripcion</string>
+</resources>
